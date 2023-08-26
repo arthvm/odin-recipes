@@ -1,0 +1,12 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+body header {
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    padding: 2%;
+    margin-bottom: 10%;
+}
