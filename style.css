@@ -7,9 +7,10 @@ body {
 header {
     background-color: green;
     color: yellow;
+    text-align: center;
     padding: 2%;
     margin-bottom: 1em;
-    
+
 }
 
 header.main-header {
@@ -32,12 +33,28 @@ header.main-header {
     color: yellow;
 }
 
+.recipe-container{
+    background-color: green;
+    padding: 2%;
+    border-radius: 5%;
+    margin: auto 5%;
+}
+
+.recipe-container>h2, .recipe-container>h3 {
+    color: yellow;
+}
+
 a {
     color: yellow;
 }
 
 img {
     display: block;
-    margin-left: 2%;
-    width: 20%;
+    margin: 1em  30%;
+    width: 300px;
+}
+
+footer{
+    text-align: center;
+    
 }
