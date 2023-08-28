@@ -1,20 +1,39 @@
-* {
-    padding: auto;
-    margin: auto;
+body {
+    padding: 0;
+    margin: 0;
+    background-color: blue;
 }
 
-body header {
+header {
     background-color: green;
     color: yellow;
     padding: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 1em;
+    
 }
-
-
 
 header.main-header {
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.recipes-link-container {
+    margin: 0px;
+    margin-left: 20%;
+    width: 60%;
+    height: 500px;
+    padding: 2%;
+    background-color: green;
+    border-radius: 1em;
+}
+
+.recipes-link-container>ul>li {
+    margin: 1em 3em;
+    color: yellow;
+}
+
+a {
+    color: yellow;
 }
 
 img {
