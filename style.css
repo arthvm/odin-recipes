@@ -4,9 +4,21 @@
 }
 
 body header {
-    text-align: center;
     background-color: green;
     color: yellow;
     padding: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+}
+
+
+
+header.main-header {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+img {
+    display: block;
+    margin-left: 2%;
+    width: 20%;
 }
